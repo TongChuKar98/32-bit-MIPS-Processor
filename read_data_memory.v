@@ -3,8 +3,7 @@
 // Program ilk başladığında initial değerleri dosyadan çeker.
 module read_data_memory(
 	output reg [31:0] read_data,
-	input  [31:0] address,
-					  write_data,
+	input  [31:0] address,write_data,
 	input [5:0] opcode,
 	input sig_mem_read,
 			sig_mem_write
